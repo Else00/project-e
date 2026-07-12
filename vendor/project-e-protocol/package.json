@@ -1,0 +1,13 @@
+{
+  "name": "project-e-protocol",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@bufbuild/protobuf": "2.12.1",
+    "@noble/hashes": "2.2.0"
+  }
+}

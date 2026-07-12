@@ -1,0 +1,111 @@
+{
+  "formatVersion": 1,
+  "packageVersion": "0.2.0",
+  "wireVersion": {
+    "major": 1,
+    "minor": 0
+  },
+  "hashing": {
+    "fileAlgorithm": "BLAKE3-256",
+    "treeAlgorithm": "project-e-tree-blake3-v1",
+    "treeFraming": "u32be(path_utf8_length)||path_utf8||u64be(content_length)||content"
+  },
+  "schema": {
+    "treeBlake3": "ee5985ca538cd471d18dc94787dbb33cffc6ab334e788b6ea076e3e3fa2faceb",
+    "files": [
+      {
+        "path": "proto/project_e/transfer/v1/bigfile.proto",
+        "blake3": "5b533dccf94a26486206746ec51471b793c9b08ee1b87eb30c869a321abbb82c"
+      },
+      {
+        "path": "proto/project_e/transfer/v1/content.proto",
+        "blake3": "2ace932bdf973538afcc96e7f7ba19db241abd6b164ce9cd787795a77c77cd16"
+      },
+      {
+        "path": "proto/project_e/transfer/v1/transfer.proto",
+        "blake3": "a8c989d8377a70dac2c28633a8cecfeb46fad544229d9481e44e2d413d42351c"
+      }
+    ]
+  },
+  "descriptors": {
+    "current": {
+      "path": "generated/descriptor/protocol-v1.binpb",
+      "blake3": "ef049a02f2b96f96926ffa8593bc31fbb374d1135e26a944a5a760e8f93052ea"
+    },
+    "breakingBaseline": {
+      "path": "fixtures/descriptors/protocol-v1.binpb",
+      "blake3": "ef049a02f2b96f96926ffa8593bc31fbb374d1135e26a944a5a760e8f93052ea"
+    }
+  },
+  "generated": {
+    "typescript": {
+      "treeBlake3": "4b807cad5c10ffcfc0746ce060ffd4a0114bc7164d4242dc7e558c815e8d3a5f",
+      "files": [
+        {
+          "path": "generated/typescript/project_e/transfer/v1/bigfile_pb.ts",
+          "blake3": "3728dd7234adfc80a8d83a9f176a89a924d832657f1404654ec88f788874ef64"
+        },
+        {
+          "path": "generated/typescript/project_e/transfer/v1/content_pb.ts",
+          "blake3": "537d333a0f1f719b27ad43eaf62337ad5f4785073ba636cc7c661c0b3398441e"
+        },
+        {
+          "path": "generated/typescript/project_e/transfer/v1/transfer_pb.ts",
+          "blake3": "22736d6eca19c055c6a4eeeb06bc51adfa70c0bd422215ddfe9a948f609f7480"
+        }
+      ]
+    },
+    "swift": {
+      "treeBlake3": "0112e3fef1b5508fd86f1f9a134d446e7159f632e30546cc4200be423825efe8",
+      "files": [
+        {
+          "path": "generated/swift/project_e_transfer_v1_bigfile.pb.swift",
+          "blake3": "a5220997ebf5ebe15e3a37d330a5097e0951f89ab234b359d95a331463c73da4"
+        },
+        {
+          "path": "generated/swift/project_e_transfer_v1_content.pb.swift",
+          "blake3": "da0e869256fba23a0037a305ff99ffb44ead98e886f966d137064beb21b82fdd"
+        },
+        {
+          "path": "generated/swift/project_e_transfer_v1_transfer.pb.swift",
+          "blake3": "5cf5754e493903c540012d5826452fc52ea69f6792708f09134709a35d95b2c3"
+        }
+      ]
+    }
+  },
+  "toolchain": {
+    "node": "24.18.0",
+    "bun": "bun@1.3.14",
+    "bunLockBlake3": "c7b8a587da66eb5cb5934b79df419777ddaf218dfdfda1e6263d9c173dc72812",
+    "buf": "1.71.0",
+    "nobleHashes": "2.2.0",
+    "jsoncParser": "3.3.1",
+    "protobufEs": {
+      "runtime": "2.12.1",
+      "generator": "2.12.1"
+    },
+    "swift": {
+      "toolsVersion": "6.1.0",
+      "packages": [
+        {
+          "identity": "blake-hash",
+          "location": "https://github.com/trancee/blake-hash.git",
+          "version": "1.1.1",
+          "revision": "30148ebb247ecf41535a91775ccff153bb9100f9"
+        },
+        {
+          "identity": "swift-protobuf",
+          "location": "https://github.com/apple/swift-protobuf.git",
+          "version": "1.38.1",
+          "revision": "55d7a1cc5666b85c13464aea1c4b4a90feccb4c8"
+        }
+      ]
+    },
+    "swiftGenerator": {
+      "version": "1.38.1",
+      "sourceRevision": "55d7a1cc5666b85c13464aea1c4b4a90feccb4c8",
+      "sourceClean": true,
+      "generatorVerification": "output-matches-clean-local-release-build"
+    }
+  }
+}

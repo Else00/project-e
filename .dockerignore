@@ -1,0 +1,15 @@
+.git
+.gitignore
+
+node_modules
+dist
+coverage
+playwright-report
+test-results
+tests
+
+.DS_Store
+*.log
+*.tmp
+
+Dockerfile

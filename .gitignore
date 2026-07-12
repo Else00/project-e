@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.vite/
+
+# Test and coverage output
+coverage/
+playwright-report/
+test-results/
+
+# Runtime/editor noise
+.DS_Store
+*.log
+*.tmp
+*.swp
+
+# Local env overrides
+.env
+.env.*
+!.env.example
+
+# Docker/build cache metadata
+.docker-cache/
